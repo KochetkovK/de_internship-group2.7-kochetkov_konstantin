@@ -1,0 +1,1 @@
+# de_internship-group2.7-kochetkov_konstantin
