@@ -14,7 +14,7 @@ today = datetime(2024, 2, 4, 12, 0, 0)  #datetime.now()
 user_id_arch_list = []
 count_ins_result = 0
 count_rep_result = 0
-file_name = f"4_4_work_with_mongo_db/{today.strftime('%Y-%m-%d')}.json"
+file_name = f"{today.strftime('%Y-%m-%d')}.json"
 
 query = {    
     "$and":
@@ -41,7 +41,7 @@ if collection.find_one() is not None:
     result = {
         "date": today.strftime('%Y-%m-%d'),
         "archived_users_count": count_ins_result + count_rep_result,
-        "arcived_user_ids": user_id_arch_list
+        "archived_user_ids": user_id_arch_list
     }
     
     if not os.path.exists(file_name):
