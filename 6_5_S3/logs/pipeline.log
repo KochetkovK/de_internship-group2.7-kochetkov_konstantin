@@ -1,0 +1,478 @@
+2026-01-06 20:52:26 - __main__ - INFO: Watchfiles запущен
+2026-01-06 20:52:26 - __mp_main__ - INFO: Первый запуск процесса...
+2026-01-06 20:52:57 - __mp_main__ - INFO: Добавился новый файл
+2026-01-06 20:55:11 - __mp_main__ - INFO: Добавился новый файл
+2026-01-06 20:56:31 - __main__ - INFO: Watchfiles запущен
+2026-01-06 20:56:32 - __mp_main__ - INFO: Первый запуск процесса...
+2026-01-06 21:01:24 - __main__ - INFO: Watchfiles запущен
+2026-01-06 21:01:24 - __mp_main__ - INFO: Первый запуск процесса...
+2026-01-06 21:03:37 - __main__ - INFO: Watchfiles запущен
+2026-01-06 21:03:37 - __mp_main__ - INFO: Первый запуск процесса...
+2026-01-06 21:04:38 - __main__ - INFO: Watchfiles запущен
+2026-01-06 21:04:39 - __mp_main__ - INFO: Первый запуск процесса...
+2026-01-06 21:06:00 - __main__ - INFO: Watchfiles запущен
+2026-01-06 21:06:00 - __mp_main__ - INFO: Первый запуск процесса...
+2026-01-06 21:08:28 - __main__ - INFO: Watchfiles запущен
+2026-01-06 21:08:28 - __mp_main__ - INFO: Первый запуск процесса...
+2026-01-06 21:29:40 - __mp_main__ - INFO: Добавился новый файл
+2026-01-06 21:29:40 - __mp_main__ - INFO: Файл data/sales_2025-12-30_16:31:20.csv прочитан
+2026-01-06 21:29:40 - __mp_main__ - INFO: Файл data/sales_2025-12-30_16:31:20.csv не корректен, нет столбца: 'product'
+2026-01-06 21:46:43 - __mp_main__ - INFO: Добавились новые файлы
+2026-01-06 21:46:43 - __mp_main__ - INFO: Файл data/sales_2025-12-30_16:31:06.csv прочитан
+2026-01-06 21:46:43 - __mp_main__ - INFO: Файл data/sales_2025-12-30_16:31:06.csv отфильтрован
+2026-01-06 21:46:43 - __mp_main__ - INFO: Создан файл data/sales_2025-12-30_16:31:06_filter.csv
+2026-01-06 21:46:43 - __mp_main__ - INFO: Отправляем файл в S3
+2026-01-06 21:46:44 - modules.async_client_s3 - INFO: File sales_2025-12-30_16:31:06_filter.csv uploaded in bucket data-engineer-s3-practice
+2026-01-06 21:46:44 - __mp_main__ - INFO: Перемещаем файл data/sales_2025-12-30_16:31:06.csv в архив
+2026-01-06 21:46:44 - __mp_main__ - INFO: Временный файл data/sales_2025-12-30_16:31:06_filter.csv удален
+2026-01-06 21:46:44 - __mp_main__ - INFO: Обновляем лог файл в S3
+2026-01-06 21:46:44 - modules.async_client_s3 - INFO: File pipeline.log uploaded in bucket data-engineer-s3-practice
+2026-01-06 21:46:44 - __mp_main__ - INFO: Файл data/sales_2025-12-30_16:31:12.csv прочитан
+2026-01-06 21:46:44 - __mp_main__ - INFO: Файл data/sales_2025-12-30_16:31:12.csv отфильтрован
+2026-01-06 21:46:44 - __mp_main__ - INFO: Создан файл data/sales_2025-12-30_16:31:12_filter.csv
+2026-01-06 21:46:44 - __mp_main__ - INFO: Отправляем файл в S3
+2026-01-06 21:46:44 - modules.async_client_s3 - INFO: File sales_2025-12-30_16:31:12_filter.csv uploaded in bucket data-engineer-s3-practice
+2026-01-06 21:46:44 - __mp_main__ - INFO: Перемещаем файл data/sales_2025-12-30_16:31:12.csv в архив
+2026-01-06 21:46:44 - __mp_main__ - INFO: Временный файл data/sales_2025-12-30_16:31:12_filter.csv удален
+2026-01-06 21:46:44 - __mp_main__ - INFO: Обновляем лог файл в S3
+2026-01-06 21:46:44 - modules.async_client_s3 - INFO: File pipeline.log uploaded in bucket data-engineer-s3-practice
+2026-01-06 21:46:44 - __mp_main__ - INFO: Файл data/sales_2025-12-30_16:31:10.csv прочитан
+2026-01-06 21:46:44 - __mp_main__ - INFO: Файл data/sales_2025-12-30_16:31:10.csv отфильтрован
+2026-01-06 21:46:44 - __mp_main__ - INFO: Создан файл data/sales_2025-12-30_16:31:10_filter.csv
+2026-01-06 21:46:44 - __mp_main__ - INFO: Отправляем файл в S3
+2026-01-06 21:46:44 - modules.async_client_s3 - INFO: File sales_2025-12-30_16:31:10_filter.csv uploaded in bucket data-engineer-s3-practice
+2026-01-06 21:46:44 - __mp_main__ - INFO: Перемещаем файл data/sales_2025-12-30_16:31:10.csv в архив
+2026-01-06 21:46:44 - __mp_main__ - INFO: Временный файл data/sales_2025-12-30_16:31:10_filter.csv удален
+2026-01-06 21:46:44 - __mp_main__ - INFO: Обновляем лог файл в S3
+2026-01-06 21:46:44 - modules.async_client_s3 - INFO: File pipeline.log uploaded in bucket data-engineer-s3-practice
+2026-01-06 21:46:44 - __mp_main__ - INFO: Файл data/sales_2025-12-30_16:31:20.csv прочитан
+2026-01-06 21:46:44 - __mp_main__ - INFO: Файл data/sales_2025-12-30_16:31:20.csv не корректен, нет столбца: 'product'
+2026-01-06 21:46:44 - __mp_main__ - INFO: Обновляем лог файл в S3
+2026-01-06 21:46:44 - modules.async_client_s3 - INFO: File pipeline.log uploaded in bucket data-engineer-s3-practice
+2026-01-06 21:52:17 - __mp_main__ - INFO: Добавился новый файл
+2026-01-06 21:52:17 - __mp_main__ - INFO: Файл data/sales_2026-01-06_21:52:16.csv прочитан
+2026-01-06 21:52:17 - __mp_main__ - INFO: Файл data/sales_2026-01-06_21:52:16.csv отфильтрован
+2026-01-06 21:52:17 - __mp_main__ - INFO: Создан файл data/sales_2026-01-06_21:52:16_filter.csv
+2026-01-06 21:52:17 - __mp_main__ - INFO: Отправляем файл в S3
+2026-01-06 21:52:19 - __mp_main__ - INFO: Добавился новый файл
+2026-01-06 21:52:19 - __mp_main__ - INFO: Файл data/sales_2026-01-06_21:52:16.csv прочитан
+2026-01-06 21:52:19 - __mp_main__ - INFO: Файл data/sales_2026-01-06_21:52:16.csv отфильтрован
+2026-01-06 21:52:19 - __mp_main__ - INFO: Создан файл data/sales_2026-01-06_21:52:16_filter.csv
+2026-01-06 21:52:19 - __mp_main__ - INFO: Отправляем файл в S3
+2026-01-06 21:52:21 - __mp_main__ - INFO: Добавился новый файл
+2026-01-06 21:52:21 - __mp_main__ - INFO: Файл data/sales_2026-01-06_21:52:16.csv прочитан
+2026-01-06 21:52:21 - __mp_main__ - INFO: Файл data/sales_2026-01-06_21:52:16.csv отфильтрован
+2026-01-06 21:52:21 - __mp_main__ - INFO: Создан файл data/sales_2026-01-06_21:52:16_filter.csv
+2026-01-06 21:52:21 - __mp_main__ - INFO: Отправляем файл в S3
+2026-01-06 21:52:21 - modules.async_client_s3 - INFO: File sales_2026-01-06_21:52:16_filter.csv uploaded in bucket data-engineer-s3-practice
+2026-01-06 21:52:21 - __mp_main__ - INFO: Перемещаем файл data/sales_2026-01-06_21:52:16.csv в архив
+2026-01-06 21:52:21 - __mp_main__ - INFO: Временный файл data/sales_2026-01-06_21:52:16_filter.csv удален
+2026-01-06 21:52:21 - __mp_main__ - INFO: Обновляем лог файл в S3
+2026-01-06 21:52:21 - modules.async_client_s3 - INFO: File pipeline.log uploaded in bucket data-engineer-s3-practice
+2026-01-06 21:52:21 - __mp_main__ - INFO: Файл data/sales_2026-01-06_21:52:20.csv прочитан
+2026-01-06 21:52:21 - __mp_main__ - INFO: Файл data/sales_2026-01-06_21:52:20.csv отфильтрован
+2026-01-06 21:52:21 - __mp_main__ - INFO: Создан файл data/sales_2026-01-06_21:52:20_filter.csv
+2026-01-06 21:52:21 - __mp_main__ - INFO: Отправляем файл в S3
+2026-01-06 21:52:21 - modules.async_client_s3 - INFO: File sales_2026-01-06_21:52:20_filter.csv uploaded in bucket data-engineer-s3-practice
+2026-01-06 21:52:21 - __mp_main__ - INFO: Перемещаем файл data/sales_2026-01-06_21:52:20.csv в архив
+2026-01-06 21:52:21 - __mp_main__ - INFO: Временный файл data/sales_2026-01-06_21:52:20_filter.csv удален
+2026-01-06 21:52:21 - __mp_main__ - INFO: Обновляем лог файл в S3
+2026-01-06 21:52:21 - modules.async_client_s3 - INFO: File pipeline.log uploaded in bucket data-engineer-s3-practice
+2026-01-06 21:52:21 - __mp_main__ - INFO: Файл data/sales_2026-01-06_21:52:18.csv прочитан
+2026-01-06 21:52:21 - __mp_main__ - INFO: Файл data/sales_2026-01-06_21:52:18.csv отфильтрован
+2026-01-06 21:52:21 - __mp_main__ - INFO: Создан файл data/sales_2026-01-06_21:52:18_filter.csv
+2026-01-06 21:52:21 - __mp_main__ - INFO: Отправляем файл в S3
+2026-01-06 21:52:21 - modules.async_client_s3 - INFO: File sales_2026-01-06_21:52:18_filter.csv uploaded in bucket data-engineer-s3-practice
+2026-01-06 21:52:21 - __mp_main__ - INFO: Перемещаем файл data/sales_2026-01-06_21:52:18.csv в архив
+2026-01-06 21:52:21 - __mp_main__ - INFO: Временный файл data/sales_2026-01-06_21:52:18_filter.csv удален
+2026-01-06 21:52:21 - __mp_main__ - INFO: Обновляем лог файл в S3
+2026-01-06 21:52:22 - modules.async_client_s3 - INFO: File pipeline.log uploaded in bucket data-engineer-s3-practice
+2026-01-06 21:52:22 - __mp_main__ - INFO: Добавился новый файл
+2026-01-06 21:52:22 - __mp_main__ - INFO: Файл data/sales_2026-01-06_21:52:22.csv прочитан
+2026-01-06 21:52:22 - __mp_main__ - INFO: Файл data/sales_2026-01-06_21:52:22.csv отфильтрован
+2026-01-06 21:52:22 - __mp_main__ - INFO: Создан файл data/sales_2026-01-06_21:52:22_filter.csv
+2026-01-06 21:52:22 - __mp_main__ - INFO: Отправляем файл в S3
+2026-01-06 21:52:23 - modules.async_client_s3 - INFO: File sales_2026-01-06_21:52:22_filter.csv uploaded in bucket data-engineer-s3-practice
+2026-01-06 21:52:23 - __mp_main__ - INFO: Перемещаем файл data/sales_2026-01-06_21:52:22.csv в архив
+2026-01-06 21:52:23 - __mp_main__ - INFO: Временный файл data/sales_2026-01-06_21:52:22_filter.csv удален
+2026-01-06 21:52:23 - __mp_main__ - INFO: Обновляем лог файл в S3
+2026-01-06 21:52:23 - modules.async_client_s3 - INFO: File pipeline.log uploaded in bucket data-engineer-s3-practice
+2026-01-06 21:52:24 - __mp_main__ - INFO: Добавился новый файл
+2026-01-06 21:52:24 - __mp_main__ - INFO: Файл data/sales_2026-01-06_21:52:23.csv прочитан
+2026-01-06 21:52:24 - __mp_main__ - INFO: Файл data/sales_2026-01-06_21:52:23.csv отфильтрован
+2026-01-06 21:52:24 - __mp_main__ - INFO: Создан файл data/sales_2026-01-06_21:52:23_filter.csv
+2026-01-06 21:52:24 - __mp_main__ - INFO: Отправляем файл в S3
+2026-01-06 21:52:24 - modules.async_client_s3 - INFO: File sales_2026-01-06_21:52:23_filter.csv uploaded in bucket data-engineer-s3-practice
+2026-01-06 21:52:24 - __mp_main__ - INFO: Перемещаем файл data/sales_2026-01-06_21:52:23.csv в архив
+2026-01-06 21:52:24 - __mp_main__ - INFO: Временный файл data/sales_2026-01-06_21:52:23_filter.csv удален
+2026-01-06 21:52:24 - __mp_main__ - INFO: Обновляем лог файл в S3
+2026-01-06 21:52:24 - modules.async_client_s3 - INFO: File pipeline.log uploaded in bucket data-engineer-s3-practice
+2026-01-06 21:52:28 - __mp_main__ - INFO: Добавился новый файл
+2026-01-06 21:52:28 - __mp_main__ - INFO: Файл data/sales_2026-01-06_21:52:27.csv прочитан
+2026-01-06 21:52:28 - __mp_main__ - INFO: Файл data/sales_2026-01-06_21:52:27.csv отфильтрован
+2026-01-06 21:52:28 - __mp_main__ - INFO: Создан файл data/sales_2026-01-06_21:52:27_filter.csv
+2026-01-06 21:52:28 - __mp_main__ - INFO: Отправляем файл в S3
+2026-01-06 21:52:28 - modules.async_client_s3 - INFO: File sales_2026-01-06_21:52:27_filter.csv uploaded in bucket data-engineer-s3-practice
+2026-01-06 21:52:28 - __mp_main__ - INFO: Перемещаем файл data/sales_2026-01-06_21:52:27.csv в архив
+2026-01-06 21:52:28 - __mp_main__ - INFO: Временный файл data/sales_2026-01-06_21:52:27_filter.csv удален
+2026-01-06 21:52:28 - __mp_main__ - INFO: Обновляем лог файл в S3
+2026-01-06 21:52:28 - modules.async_client_s3 - INFO: File pipeline.log uploaded in bucket data-engineer-s3-practice
+2026-01-06 21:52:29 - __mp_main__ - INFO: Добавился новый файл
+2026-01-06 21:52:29 - __mp_main__ - INFO: Файл data/sales_2026-01-06_21:52:29.csv прочитан
+2026-01-06 21:52:29 - __mp_main__ - INFO: Файл data/sales_2026-01-06_21:52:29.csv отфильтрован
+2026-01-06 21:52:29 - __mp_main__ - INFO: Создан файл data/sales_2026-01-06_21:52:29_filter.csv
+2026-01-06 21:52:29 - __mp_main__ - INFO: Отправляем файл в S3
+2026-01-06 21:52:29 - modules.async_client_s3 - INFO: File sales_2026-01-06_21:52:29_filter.csv uploaded in bucket data-engineer-s3-practice
+2026-01-06 21:52:29 - __mp_main__ - INFO: Перемещаем файл data/sales_2026-01-06_21:52:29.csv в архив
+2026-01-06 21:52:29 - __mp_main__ - INFO: Временный файл data/sales_2026-01-06_21:52:29_filter.csv удален
+2026-01-06 21:52:29 - __mp_main__ - INFO: Обновляем лог файл в S3
+2026-01-06 21:52:29 - modules.async_client_s3 - INFO: File pipeline.log uploaded in bucket data-engineer-s3-practice
+2026-01-06 21:52:31 - __mp_main__ - INFO: Добавился новый файл
+2026-01-06 21:52:31 - __mp_main__ - INFO: Файл data/sales_2026-01-06_21:52:30.csv прочитан
+2026-01-06 21:52:31 - __mp_main__ - INFO: Файл data/sales_2026-01-06_21:52:30.csv отфильтрован
+2026-01-06 21:52:31 - __mp_main__ - INFO: Создан файл data/sales_2026-01-06_21:52:30_filter.csv
+2026-01-06 21:52:31 - __mp_main__ - INFO: Отправляем файл в S3
+2026-01-06 21:52:31 - modules.async_client_s3 - INFO: File sales_2026-01-06_21:52:30_filter.csv uploaded in bucket data-engineer-s3-practice
+2026-01-06 21:52:31 - __mp_main__ - INFO: Перемещаем файл data/sales_2026-01-06_21:52:30.csv в архив
+2026-01-06 21:52:31 - __mp_main__ - INFO: Временный файл data/sales_2026-01-06_21:52:30_filter.csv удален
+2026-01-06 21:52:31 - __mp_main__ - INFO: Обновляем лог файл в S3
+2026-01-06 21:52:31 - modules.async_client_s3 - INFO: File pipeline.log uploaded in bucket data-engineer-s3-practice
+2026-01-06 21:52:32 - __mp_main__ - INFO: Добавился новый файл
+2026-01-06 21:52:32 - __mp_main__ - INFO: Файл data/sales_2026-01-06_21:52:32.csv прочитан
+2026-01-06 21:52:32 - __mp_main__ - INFO: Файл data/sales_2026-01-06_21:52:32.csv отфильтрован
+2026-01-06 21:52:32 - __mp_main__ - INFO: Создан файл data/sales_2026-01-06_21:52:32_filter.csv
+2026-01-06 21:52:32 - __mp_main__ - INFO: Отправляем файл в S3
+2026-01-06 21:52:33 - modules.async_client_s3 - INFO: File sales_2026-01-06_21:52:32_filter.csv uploaded in bucket data-engineer-s3-practice
+2026-01-06 21:52:33 - __mp_main__ - INFO: Перемещаем файл data/sales_2026-01-06_21:52:32.csv в архив
+2026-01-06 21:52:33 - __mp_main__ - INFO: Временный файл data/sales_2026-01-06_21:52:32_filter.csv удален
+2026-01-06 21:52:33 - __mp_main__ - INFO: Обновляем лог файл в S3
+2026-01-06 21:52:33 - modules.async_client_s3 - INFO: File pipeline.log uploaded in bucket data-engineer-s3-practice
+2026-01-06 21:52:34 - __mp_main__ - INFO: Добавился новый файл
+2026-01-06 21:52:34 - __mp_main__ - INFO: Файл data/sales_2026-01-06_21:52:34.csv прочитан
+2026-01-06 21:52:34 - __mp_main__ - INFO: Файл data/sales_2026-01-06_21:52:34.csv отфильтрован
+2026-01-06 21:52:34 - __mp_main__ - INFO: Создан файл data/sales_2026-01-06_21:52:34_filter.csv
+2026-01-06 21:52:34 - __mp_main__ - INFO: Отправляем файл в S3
+2026-01-06 21:52:34 - modules.async_client_s3 - INFO: File sales_2026-01-06_21:52:34_filter.csv uploaded in bucket data-engineer-s3-practice
+2026-01-06 21:52:34 - __mp_main__ - INFO: Перемещаем файл data/sales_2026-01-06_21:52:34.csv в архив
+2026-01-06 21:52:34 - __mp_main__ - INFO: Временный файл data/sales_2026-01-06_21:52:34_filter.csv удален
+2026-01-06 21:52:34 - __mp_main__ - INFO: Обновляем лог файл в S3
+2026-01-06 21:52:35 - modules.async_client_s3 - INFO: File pipeline.log uploaded in bucket data-engineer-s3-practice
+2026-01-06 21:52:38 - __mp_main__ - INFO: Добавился новый файл
+2026-01-06 21:52:38 - __mp_main__ - INFO: Файл data/sales_2026-01-06_21:52:37.csv прочитан
+2026-01-06 21:52:38 - __mp_main__ - INFO: Файл data/sales_2026-01-06_21:52:37.csv отфильтрован
+2026-01-06 21:52:38 - __mp_main__ - INFO: Создан файл data/sales_2026-01-06_21:52:37_filter.csv
+2026-01-06 21:52:38 - __mp_main__ - INFO: Отправляем файл в S3
+2026-01-06 21:52:38 - modules.async_client_s3 - INFO: File sales_2026-01-06_21:52:37_filter.csv uploaded in bucket data-engineer-s3-practice
+2026-01-06 21:52:38 - __mp_main__ - INFO: Перемещаем файл data/sales_2026-01-06_21:52:37.csv в архив
+2026-01-06 21:52:38 - __mp_main__ - INFO: Временный файл data/sales_2026-01-06_21:52:37_filter.csv удален
+2026-01-06 21:52:38 - __mp_main__ - INFO: Обновляем лог файл в S3
+2026-01-06 21:52:38 - modules.async_client_s3 - INFO: File pipeline.log uploaded in bucket data-engineer-s3-practice
+2026-01-06 21:52:40 - __mp_main__ - INFO: Добавился новый файл
+2026-01-06 21:52:40 - __mp_main__ - INFO: Файл data/sales_2026-01-06_21:52:39.csv прочитан
+2026-01-06 21:52:40 - __mp_main__ - INFO: Файл data/sales_2026-01-06_21:52:39.csv отфильтрован
+2026-01-06 21:52:40 - __mp_main__ - INFO: Создан файл data/sales_2026-01-06_21:52:39_filter.csv
+2026-01-06 21:52:40 - __mp_main__ - INFO: Отправляем файл в S3
+2026-01-06 21:52:40 - modules.async_client_s3 - INFO: File sales_2026-01-06_21:52:39_filter.csv uploaded in bucket data-engineer-s3-practice
+2026-01-06 21:52:40 - __mp_main__ - INFO: Перемещаем файл data/sales_2026-01-06_21:52:39.csv в архив
+2026-01-06 21:52:40 - __mp_main__ - INFO: Временный файл data/sales_2026-01-06_21:52:39_filter.csv удален
+2026-01-06 21:52:40 - __mp_main__ - INFO: Обновляем лог файл в S3
+2026-01-06 21:52:40 - modules.async_client_s3 - INFO: File pipeline.log uploaded in bucket data-engineer-s3-practice
+2026-01-06 21:52:41 - __mp_main__ - INFO: Добавился новый файл
+2026-01-06 21:52:41 - __mp_main__ - INFO: Файл data/sales_2026-01-06_21:52:41.csv прочитан
+2026-01-06 21:52:41 - __mp_main__ - INFO: Файл data/sales_2026-01-06_21:52:41.csv отфильтрован
+2026-01-06 21:52:41 - __mp_main__ - INFO: Создан файл data/sales_2026-01-06_21:52:41_filter.csv
+2026-01-06 21:52:41 - __mp_main__ - INFO: Отправляем файл в S3
+2026-01-06 21:52:42 - modules.async_client_s3 - INFO: File sales_2026-01-06_21:52:41_filter.csv uploaded in bucket data-engineer-s3-practice
+2026-01-06 21:52:42 - __mp_main__ - INFO: Перемещаем файл data/sales_2026-01-06_21:52:41.csv в архив
+2026-01-06 21:52:42 - __mp_main__ - INFO: Временный файл data/sales_2026-01-06_21:52:41_filter.csv удален
+2026-01-06 21:52:42 - __mp_main__ - INFO: Обновляем лог файл в S3
+2026-01-06 21:52:42 - modules.async_client_s3 - INFO: File pipeline.log uploaded in bucket data-engineer-s3-practice
+2026-01-12 19:16:49 - __main__ - INFO: Watchfiles запущен
+2026-01-12 19:16:50 - __mp_main__ - INFO: Первый запуск процесса...
+2026-01-12 19:16:50 - __mp_main__ - INFO: Файл data/sales_2026-01-12_19:16:45.csv прочитан
+2026-01-12 19:16:51 - __mp_main__ - INFO: Добавился новый файл
+2026-01-12 19:16:51 - __mp_main__ - INFO: Файл data/sales_2026-01-12_19:16:45.csv прочитан
+2026-01-12 19:16:51 - __mp_main__ - INFO: Файл data/sales_2026-01-12_19:16:45.csv отфильтрован
+2026-01-12 19:16:51 - __mp_main__ - INFO: Создан файл data/sales_2026-01-12_19:16:45_filter.csv
+2026-01-12 19:16:51 - __mp_main__ - INFO: Отправляем файл в S3
+2026-01-12 19:16:51 - modules.async_client_s3 - INFO: File sales_2026-01-12_19:16:45_filter.csv uploaded in bucket data-engineer-s3-practice
+2026-01-12 19:16:51 - __mp_main__ - INFO: Перемещаем файл data/sales_2026-01-12_19:16:45.csv в архив
+2026-01-12 19:16:51 - __mp_main__ - INFO: Временный файл data/sales_2026-01-12_19:16:45_filter.csv удален
+2026-01-12 19:16:51 - __mp_main__ - INFO: Обновляем лог файл в S3
+2026-01-12 19:16:51 - modules.async_client_s3 - INFO: File pipeline.log uploaded in bucket data-engineer-s3-practice
+2026-01-12 19:16:51 - __mp_main__ - INFO: Файл data/sales_2026-01-12_19:16:50.csv прочитан
+2026-01-12 19:16:51 - __mp_main__ - INFO: Файл data/sales_2026-01-12_19:16:50.csv отфильтрован
+2026-01-12 19:16:51 - __mp_main__ - INFO: Создан файл data/sales_2026-01-12_19:16:50_filter.csv
+2026-01-12 19:16:51 - __mp_main__ - INFO: Отправляем файл в S3
+2026-01-12 19:16:51 - modules.async_client_s3 - INFO: File sales_2026-01-12_19:16:50_filter.csv uploaded in bucket data-engineer-s3-practice
+2026-01-12 19:16:51 - __mp_main__ - INFO: Перемещаем файл data/sales_2026-01-12_19:16:50.csv в архив
+2026-01-12 19:16:51 - __mp_main__ - INFO: Временный файл data/sales_2026-01-12_19:16:50_filter.csv удален
+2026-01-12 19:16:51 - __mp_main__ - INFO: Обновляем лог файл в S3
+2026-01-12 19:16:51 - modules.async_client_s3 - INFO: File pipeline.log uploaded in bucket data-engineer-s3-practice
+2026-01-12 19:16:51 - __mp_main__ - INFO: Файл data/sales_2026-01-12_19:16:46.csv прочитан
+2026-01-12 19:16:51 - __mp_main__ - INFO: Файл data/sales_2026-01-12_19:16:46.csv отфильтрован
+2026-01-12 19:16:51 - __mp_main__ - INFO: Создан файл data/sales_2026-01-12_19:16:46_filter.csv
+2026-01-12 19:16:51 - __mp_main__ - INFO: Отправляем файл в S3
+2026-01-12 19:16:52 - modules.async_client_s3 - INFO: File sales_2026-01-12_19:16:46_filter.csv uploaded in bucket data-engineer-s3-practice
+2026-01-12 19:16:52 - __mp_main__ - INFO: Перемещаем файл data/sales_2026-01-12_19:16:46.csv в архив
+2026-01-12 19:16:52 - __mp_main__ - INFO: Временный файл data/sales_2026-01-12_19:16:46_filter.csv удален
+2026-01-12 19:16:52 - __mp_main__ - INFO: Обновляем лог файл в S3
+2026-01-12 19:16:52 - modules.async_client_s3 - INFO: File pipeline.log uploaded in bucket data-engineer-s3-practice
+2026-01-12 19:16:52 - __mp_main__ - INFO: Файл data/sales_2026-01-12_19:16:48.csv прочитан
+2026-01-12 19:16:52 - __mp_main__ - INFO: Файл data/sales_2026-01-12_19:16:48.csv отфильтрован
+2026-01-12 19:16:52 - __mp_main__ - INFO: Создан файл data/sales_2026-01-12_19:16:48_filter.csv
+2026-01-12 19:16:52 - __mp_main__ - INFO: Отправляем файл в S3
+2026-01-12 19:16:52 - modules.async_client_s3 - INFO: File sales_2026-01-12_19:16:48_filter.csv uploaded in bucket data-engineer-s3-practice
+2026-01-12 19:16:52 - __mp_main__ - INFO: Перемещаем файл data/sales_2026-01-12_19:16:48.csv в архив
+2026-01-12 19:16:52 - __mp_main__ - INFO: Временный файл data/sales_2026-01-12_19:16:48_filter.csv удален
+2026-01-12 19:16:52 - __mp_main__ - INFO: Обновляем лог файл в S3
+2026-01-12 19:16:52 - modules.async_client_s3 - INFO: File pipeline.log uploaded in bucket data-engineer-s3-practice
+2026-01-12 19:16:52 - __mp_main__ - INFO: Файл data/sales_2026-01-12_19:16:43.csv прочитан
+2026-01-12 19:16:52 - __mp_main__ - INFO: Файл data/sales_2026-01-12_19:16:43.csv отфильтрован
+2026-01-12 19:16:52 - __mp_main__ - INFO: Создан файл data/sales_2026-01-12_19:16:43_filter.csv
+2026-01-12 19:16:52 - __mp_main__ - INFO: Отправляем файл в S3
+2026-01-12 19:16:52 - modules.async_client_s3 - INFO: File sales_2026-01-12_19:16:43_filter.csv uploaded in bucket data-engineer-s3-practice
+2026-01-12 19:16:52 - __mp_main__ - INFO: Перемещаем файл data/sales_2026-01-12_19:16:43.csv в архив
+2026-01-12 19:16:52 - __mp_main__ - INFO: Временный файл data/sales_2026-01-12_19:16:43_filter.csv удален
+2026-01-12 19:16:52 - __mp_main__ - INFO: Обновляем лог файл в S3
+2026-01-12 19:16:52 - modules.async_client_s3 - INFO: File pipeline.log uploaded in bucket data-engineer-s3-practice
+2026-01-12 19:16:54 - __mp_main__ - INFO: Добавился новый файл
+2026-01-12 19:16:54 - __mp_main__ - INFO: Файл data/sales_2026-01-12_19:16:53.csv прочитан
+2026-01-12 19:16:54 - __mp_main__ - INFO: Файл data/sales_2026-01-12_19:16:53.csv отфильтрован
+2026-01-12 19:16:54 - __mp_main__ - INFO: Создан файл data/sales_2026-01-12_19:16:53_filter.csv
+2026-01-12 19:16:54 - __mp_main__ - INFO: Отправляем файл в S3
+2026-01-12 19:16:54 - modules.async_client_s3 - INFO: File sales_2026-01-12_19:16:53_filter.csv uploaded in bucket data-engineer-s3-practice
+2026-01-12 19:16:54 - __mp_main__ - INFO: Перемещаем файл data/sales_2026-01-12_19:16:53.csv в архив
+2026-01-12 19:16:54 - __mp_main__ - INFO: Временный файл data/sales_2026-01-12_19:16:53_filter.csv удален
+2026-01-12 19:16:54 - __mp_main__ - INFO: Обновляем лог файл в S3
+2026-01-12 19:16:54 - modules.async_client_s3 - INFO: File pipeline.log uploaded in bucket data-engineer-s3-practice
+2026-01-12 19:16:56 - __mp_main__ - INFO: Добавился новый файл
+2026-01-12 19:16:56 - __mp_main__ - INFO: Файл data/sales_2026-01-12_19:16:55.csv прочитан
+2026-01-12 19:16:56 - __mp_main__ - INFO: Файл data/sales_2026-01-12_19:16:55.csv отфильтрован
+2026-01-12 19:16:56 - __mp_main__ - INFO: Создан файл data/sales_2026-01-12_19:16:55_filter.csv
+2026-01-12 19:16:56 - __mp_main__ - INFO: Отправляем файл в S3
+2026-01-12 19:16:56 - modules.async_client_s3 - INFO: File sales_2026-01-12_19:16:55_filter.csv uploaded in bucket data-engineer-s3-practice
+2026-01-12 19:16:56 - __mp_main__ - INFO: Перемещаем файл data/sales_2026-01-12_19:16:55.csv в архив
+2026-01-12 19:16:56 - __mp_main__ - INFO: Временный файл data/sales_2026-01-12_19:16:55_filter.csv удален
+2026-01-12 19:16:56 - __mp_main__ - INFO: Обновляем лог файл в S3
+2026-01-12 19:16:56 - modules.async_client_s3 - INFO: File pipeline.log uploaded in bucket data-engineer-s3-practice
+2026-01-12 19:16:57 - __mp_main__ - INFO: Добавился новый файл
+2026-01-12 19:16:57 - __mp_main__ - INFO: Файл data/sales_2026-01-12_19:16:57.csv прочитан
+2026-01-12 19:16:57 - __mp_main__ - INFO: Файл data/sales_2026-01-12_19:16:57.csv отфильтрован
+2026-01-12 19:16:57 - __mp_main__ - INFO: Создан файл data/sales_2026-01-12_19:16:57_filter.csv
+2026-01-12 19:16:57 - __mp_main__ - INFO: Отправляем файл в S3
+2026-01-12 19:16:58 - modules.async_client_s3 - INFO: File sales_2026-01-12_19:16:57_filter.csv uploaded in bucket data-engineer-s3-practice
+2026-01-12 19:16:58 - __mp_main__ - INFO: Перемещаем файл data/sales_2026-01-12_19:16:57.csv в архив
+2026-01-12 19:16:58 - __mp_main__ - INFO: Временный файл data/sales_2026-01-12_19:16:57_filter.csv удален
+2026-01-12 19:16:58 - __mp_main__ - INFO: Обновляем лог файл в S3
+2026-01-12 19:16:58 - modules.async_client_s3 - INFO: File pipeline.log uploaded in bucket data-engineer-s3-practice
+2026-01-12 19:16:59 - __mp_main__ - INFO: Добавился новый файл
+2026-01-12 19:16:59 - __mp_main__ - INFO: Файл data/sales_2026-01-12_19:16:59.csv прочитан
+2026-01-12 19:16:59 - __mp_main__ - INFO: Файл data/sales_2026-01-12_19:16:59.csv отфильтрован
+2026-01-12 19:16:59 - __mp_main__ - INFO: Создан файл data/sales_2026-01-12_19:16:59_filter.csv
+2026-01-12 19:16:59 - __mp_main__ - INFO: Отправляем файл в S3
+2026-01-12 19:16:59 - modules.async_client_s3 - INFO: File sales_2026-01-12_19:16:59_filter.csv uploaded in bucket data-engineer-s3-practice
+2026-01-12 19:16:59 - __mp_main__ - INFO: Перемещаем файл data/sales_2026-01-12_19:16:59.csv в архив
+2026-01-12 19:16:59 - __mp_main__ - INFO: Временный файл data/sales_2026-01-12_19:16:59_filter.csv удален
+2026-01-12 19:16:59 - __mp_main__ - INFO: Обновляем лог файл в S3
+2026-01-12 19:16:59 - modules.async_client_s3 - INFO: File pipeline.log uploaded in bucket data-engineer-s3-practice
+2026-01-12 19:17:01 - __mp_main__ - INFO: Добавился новый файл
+2026-01-12 19:17:01 - __mp_main__ - INFO: Файл data/sales_2026-01-12_19:17:00.csv прочитан
+2026-01-12 19:17:01 - __mp_main__ - INFO: Файл data/sales_2026-01-12_19:17:00.csv отфильтрован
+2026-01-12 19:17:01 - __mp_main__ - INFO: Создан файл data/sales_2026-01-12_19:17:00_filter.csv
+2026-01-12 19:17:01 - __mp_main__ - INFO: Отправляем файл в S3
+2026-01-12 19:17:01 - modules.async_client_s3 - INFO: File sales_2026-01-12_19:17:00_filter.csv uploaded in bucket data-engineer-s3-practice
+2026-01-12 19:17:01 - __mp_main__ - INFO: Перемещаем файл data/sales_2026-01-12_19:17:00.csv в архив
+2026-01-12 19:17:01 - __mp_main__ - INFO: Временный файл data/sales_2026-01-12_19:17:00_filter.csv удален
+2026-01-12 19:17:01 - __mp_main__ - INFO: Обновляем лог файл в S3
+2026-01-12 19:17:01 - modules.async_client_s3 - INFO: File pipeline.log uploaded in bucket data-engineer-s3-practice
+2026-01-12 19:17:05 - __mp_main__ - INFO: Добавился новый файл
+2026-01-12 19:17:05 - __mp_main__ - INFO: Файл data/sales_2026-01-12_19:17:04.csv прочитан
+2026-01-12 19:17:05 - __mp_main__ - INFO: Файл data/sales_2026-01-12_19:17:04.csv отфильтрован
+2026-01-12 19:17:05 - __mp_main__ - INFO: Создан файл data/sales_2026-01-12_19:17:04_filter.csv
+2026-01-12 19:17:05 - __mp_main__ - INFO: Отправляем файл в S3
+2026-01-12 19:17:05 - modules.async_client_s3 - INFO: File sales_2026-01-12_19:17:04_filter.csv uploaded in bucket data-engineer-s3-practice
+2026-01-12 19:17:05 - __mp_main__ - INFO: Перемещаем файл data/sales_2026-01-12_19:17:04.csv в архив
+2026-01-12 19:17:05 - __mp_main__ - INFO: Временный файл data/sales_2026-01-12_19:17:04_filter.csv удален
+2026-01-12 19:17:05 - __mp_main__ - INFO: Обновляем лог файл в S3
+2026-01-12 19:17:05 - modules.async_client_s3 - INFO: File pipeline.log uploaded in bucket data-engineer-s3-practice
+2026-01-12 19:17:06 - __mp_main__ - INFO: Добавился новый файл
+2026-01-12 19:17:06 - __mp_main__ - INFO: Файл data/sales_2026-01-12_19:17:06.csv прочитан
+2026-01-12 19:17:06 - __mp_main__ - INFO: Файл data/sales_2026-01-12_19:17:06.csv отфильтрован
+2026-01-12 19:17:06 - __mp_main__ - INFO: Создан файл data/sales_2026-01-12_19:17:06_filter.csv
+2026-01-12 19:17:06 - __mp_main__ - INFO: Отправляем файл в S3
+2026-01-12 19:17:06 - modules.async_client_s3 - INFO: File sales_2026-01-12_19:17:06_filter.csv uploaded in bucket data-engineer-s3-practice
+2026-01-12 19:17:06 - __mp_main__ - INFO: Перемещаем файл data/sales_2026-01-12_19:17:06.csv в архив
+2026-01-12 19:17:06 - __mp_main__ - INFO: Временный файл data/sales_2026-01-12_19:17:06_filter.csv удален
+2026-01-12 19:17:06 - __mp_main__ - INFO: Обновляем лог файл в S3
+2026-01-12 19:17:07 - modules.async_client_s3 - INFO: File pipeline.log uploaded in bucket data-engineer-s3-practice
+2026-01-12 19:17:08 - __mp_main__ - INFO: Добавился новый файл
+2026-01-12 19:17:08 - __mp_main__ - INFO: Файл data/sales_2026-01-12_19:17:07.csv прочитан
+2026-01-12 19:17:08 - __mp_main__ - INFO: Файл data/sales_2026-01-12_19:17:07.csv отфильтрован
+2026-01-12 19:17:08 - __mp_main__ - INFO: Создан файл data/sales_2026-01-12_19:17:07_filter.csv
+2026-01-12 19:17:08 - __mp_main__ - INFO: Отправляем файл в S3
+2026-01-12 19:17:08 - modules.async_client_s3 - INFO: File sales_2026-01-12_19:17:07_filter.csv uploaded in bucket data-engineer-s3-practice
+2026-01-12 19:17:08 - __mp_main__ - INFO: Перемещаем файл data/sales_2026-01-12_19:17:07.csv в архив
+2026-01-12 19:17:08 - __mp_main__ - INFO: Временный файл data/sales_2026-01-12_19:17:07_filter.csv удален
+2026-01-12 19:17:08 - __mp_main__ - INFO: Обновляем лог файл в S3
+2026-01-12 19:17:08 - modules.async_client_s3 - INFO: File pipeline.log uploaded in bucket data-engineer-s3-practice
+2026-01-12 19:17:10 - __mp_main__ - INFO: Добавился новый файл
+2026-01-12 19:17:10 - __mp_main__ - INFO: Файл data/sales_2026-01-12_19:17:09.csv прочитан
+2026-01-12 19:17:10 - __mp_main__ - INFO: Файл data/sales_2026-01-12_19:17:09.csv отфильтрован
+2026-01-12 19:17:10 - __mp_main__ - INFO: Создан файл data/sales_2026-01-12_19:17:09_filter.csv
+2026-01-12 19:17:10 - __mp_main__ - INFO: Отправляем файл в S3
+2026-01-12 19:17:10 - modules.async_client_s3 - INFO: File sales_2026-01-12_19:17:09_filter.csv uploaded in bucket data-engineer-s3-practice
+2026-01-12 19:17:10 - __mp_main__ - INFO: Перемещаем файл data/sales_2026-01-12_19:17:09.csv в архив
+2026-01-12 19:17:10 - __mp_main__ - INFO: Временный файл data/sales_2026-01-12_19:17:09_filter.csv удален
+2026-01-12 19:17:10 - __mp_main__ - INFO: Обновляем лог файл в S3
+2026-01-12 19:17:10 - modules.async_client_s3 - INFO: File pipeline.log uploaded in bucket data-engineer-s3-practice
+2026-01-12 19:17:12 - __mp_main__ - INFO: Добавился новый файл
+2026-01-12 19:17:12 - __mp_main__ - INFO: Файл data/sales_2026-01-12_19:17:11.csv прочитан
+2026-01-12 19:17:12 - __mp_main__ - INFO: Файл data/sales_2026-01-12_19:17:11.csv отфильтрован
+2026-01-12 19:17:12 - __mp_main__ - INFO: Создан файл data/sales_2026-01-12_19:17:11_filter.csv
+2026-01-12 19:17:12 - __mp_main__ - INFO: Отправляем файл в S3
+2026-01-12 19:17:12 - modules.async_client_s3 - INFO: File sales_2026-01-12_19:17:11_filter.csv uploaded in bucket data-engineer-s3-practice
+2026-01-12 19:17:12 - __mp_main__ - INFO: Перемещаем файл data/sales_2026-01-12_19:17:11.csv в архив
+2026-01-12 19:17:12 - __mp_main__ - INFO: Временный файл data/sales_2026-01-12_19:17:11_filter.csv удален
+2026-01-12 19:17:12 - __mp_main__ - INFO: Обновляем лог файл в S3
+2026-01-12 19:17:12 - modules.async_client_s3 - INFO: File pipeline.log uploaded in bucket data-engineer-s3-practice
+2026-01-12 19:17:16 - __mp_main__ - INFO: Добавился новый файл
+2026-01-12 19:17:16 - __mp_main__ - INFO: Файл data/sales_2026-01-12_19:17:15.csv прочитан
+2026-01-12 19:17:16 - __mp_main__ - INFO: Файл data/sales_2026-01-12_19:17:15.csv отфильтрован
+2026-01-12 19:17:16 - __mp_main__ - INFO: Создан файл data/sales_2026-01-12_19:17:15_filter.csv
+2026-01-12 19:17:16 - __mp_main__ - INFO: Отправляем файл в S3
+2026-01-12 19:17:16 - modules.async_client_s3 - INFO: File sales_2026-01-12_19:17:15_filter.csv uploaded in bucket data-engineer-s3-practice
+2026-01-12 19:17:16 - __mp_main__ - INFO: Перемещаем файл data/sales_2026-01-12_19:17:15.csv в архив
+2026-01-12 19:17:16 - __mp_main__ - INFO: Временный файл data/sales_2026-01-12_19:17:15_filter.csv удален
+2026-01-12 19:17:16 - __mp_main__ - INFO: Обновляем лог файл в S3
+2026-01-12 19:17:16 - modules.async_client_s3 - INFO: File pipeline.log uploaded in bucket data-engineer-s3-practice
+2026-01-12 19:17:17 - __mp_main__ - INFO: Добавился новый файл
+2026-01-12 19:17:17 - __mp_main__ - INFO: Файл data/sales_2026-01-12_19:17:17.csv прочитан
+2026-01-12 19:17:17 - __mp_main__ - INFO: Файл data/sales_2026-01-12_19:17:17.csv отфильтрован
+2026-01-12 19:17:17 - __mp_main__ - INFO: Создан файл data/sales_2026-01-12_19:17:17_filter.csv
+2026-01-12 19:17:17 - __mp_main__ - INFO: Отправляем файл в S3
+2026-01-12 19:17:18 - modules.async_client_s3 - INFO: File sales_2026-01-12_19:17:17_filter.csv uploaded in bucket data-engineer-s3-practice
+2026-01-12 19:17:18 - __mp_main__ - INFO: Перемещаем файл data/sales_2026-01-12_19:17:17.csv в архив
+2026-01-12 19:17:18 - __mp_main__ - INFO: Временный файл data/sales_2026-01-12_19:17:17_filter.csv удален
+2026-01-12 19:17:18 - __mp_main__ - INFO: Обновляем лог файл в S3
+2026-01-12 19:17:18 - modules.async_client_s3 - INFO: File pipeline.log uploaded in bucket data-engineer-s3-practice
+2026-01-12 19:17:19 - __mp_main__ - INFO: Добавился новый файл
+2026-01-12 19:17:19 - __mp_main__ - INFO: Файл data/sales_2026-01-12_19:17:19.csv прочитан
+2026-01-12 19:17:19 - __mp_main__ - INFO: Файл data/sales_2026-01-12_19:17:19.csv отфильтрован
+2026-01-12 19:17:19 - __mp_main__ - INFO: Создан файл data/sales_2026-01-12_19:17:19_filter.csv
+2026-01-12 19:17:19 - __mp_main__ - INFO: Отправляем файл в S3
+2026-01-12 19:17:20 - modules.async_client_s3 - INFO: File sales_2026-01-12_19:17:19_filter.csv uploaded in bucket data-engineer-s3-practice
+2026-01-12 19:17:20 - __mp_main__ - INFO: Перемещаем файл data/sales_2026-01-12_19:17:19.csv в архив
+2026-01-12 19:17:20 - __mp_main__ - INFO: Временный файл data/sales_2026-01-12_19:17:19_filter.csv удален
+2026-01-12 19:17:20 - __mp_main__ - INFO: Обновляем лог файл в S3
+2026-01-12 19:17:20 - modules.async_client_s3 - INFO: File pipeline.log uploaded in bucket data-engineer-s3-practice
+2026-01-12 19:17:21 - __mp_main__ - INFO: Добавился новый файл
+2026-01-12 19:17:21 - __mp_main__ - INFO: Файл data/sales_2026-01-12_19:17:21.csv прочитан
+2026-01-12 19:17:21 - __mp_main__ - INFO: Файл data/sales_2026-01-12_19:17:21.csv отфильтрован
+2026-01-12 19:17:21 - __mp_main__ - INFO: Создан файл data/sales_2026-01-12_19:17:21_filter.csv
+2026-01-12 19:17:21 - __mp_main__ - INFO: Отправляем файл в S3
+2026-01-12 19:17:22 - modules.async_client_s3 - INFO: File sales_2026-01-12_19:17:21_filter.csv uploaded in bucket data-engineer-s3-practice
+2026-01-12 19:17:22 - __mp_main__ - INFO: Перемещаем файл data/sales_2026-01-12_19:17:21.csv в архив
+2026-01-12 19:17:22 - __mp_main__ - INFO: Временный файл data/sales_2026-01-12_19:17:21_filter.csv удален
+2026-01-12 19:17:22 - __mp_main__ - INFO: Обновляем лог файл в S3
+2026-01-12 19:17:22 - modules.async_client_s3 - INFO: File pipeline.log uploaded in bucket data-engineer-s3-practice
+2026-01-12 19:17:23 - __mp_main__ - INFO: Добавился новый файл
+2026-01-12 19:17:23 - __mp_main__ - INFO: Файл data/sales_2026-01-12_19:17:22.csv прочитан
+2026-01-12 19:17:23 - __mp_main__ - INFO: Файл data/sales_2026-01-12_19:17:22.csv отфильтрован
+2026-01-12 19:17:23 - __mp_main__ - INFO: Создан файл data/sales_2026-01-12_19:17:22_filter.csv
+2026-01-12 19:17:23 - __mp_main__ - INFO: Отправляем файл в S3
+2026-01-12 19:17:23 - modules.async_client_s3 - INFO: File sales_2026-01-12_19:17:22_filter.csv uploaded in bucket data-engineer-s3-practice
+2026-01-12 19:17:23 - __mp_main__ - INFO: Перемещаем файл data/sales_2026-01-12_19:17:22.csv в архив
+2026-01-12 19:17:23 - __mp_main__ - INFO: Временный файл data/sales_2026-01-12_19:17:22_filter.csv удален
+2026-01-12 19:17:23 - __mp_main__ - INFO: Обновляем лог файл в S3
+2026-01-12 19:17:23 - modules.async_client_s3 - INFO: File pipeline.log uploaded in bucket data-engineer-s3-practice
+2026-01-12 19:17:27 - __mp_main__ - INFO: Добавился новый файл
+2026-01-12 19:17:27 - __mp_main__ - INFO: Файл data/sales_2026-01-12_19:17:26.csv прочитан
+2026-01-12 19:17:27 - __mp_main__ - INFO: Файл data/sales_2026-01-12_19:17:26.csv отфильтрован
+2026-01-12 19:17:27 - __mp_main__ - INFO: Создан файл data/sales_2026-01-12_19:17:26_filter.csv
+2026-01-12 19:17:27 - __mp_main__ - INFO: Отправляем файл в S3
+2026-01-12 19:17:27 - modules.async_client_s3 - INFO: File sales_2026-01-12_19:17:26_filter.csv uploaded in bucket data-engineer-s3-practice
+2026-01-12 19:17:27 - __mp_main__ - INFO: Перемещаем файл data/sales_2026-01-12_19:17:26.csv в архив
+2026-01-12 19:17:27 - __mp_main__ - INFO: Временный файл data/sales_2026-01-12_19:17:26_filter.csv удален
+2026-01-12 19:17:27 - __mp_main__ - INFO: Обновляем лог файл в S3
+2026-01-12 19:17:27 - modules.async_client_s3 - INFO: File pipeline.log uploaded in bucket data-engineer-s3-practice
+2026-01-12 19:17:28 - __mp_main__ - INFO: Добавился новый файл
+2026-01-12 19:17:28 - __mp_main__ - INFO: Файл data/sales_2026-01-12_19:17:28.csv прочитан
+2026-01-12 19:17:28 - __mp_main__ - INFO: Файл data/sales_2026-01-12_19:17:28.csv отфильтрован
+2026-01-12 19:17:28 - __mp_main__ - INFO: Создан файл data/sales_2026-01-12_19:17:28_filter.csv
+2026-01-12 19:17:28 - __mp_main__ - INFO: Отправляем файл в S3
+2026-01-12 19:17:29 - modules.async_client_s3 - INFO: File sales_2026-01-12_19:17:28_filter.csv uploaded in bucket data-engineer-s3-practice
+2026-01-12 19:17:29 - __mp_main__ - INFO: Перемещаем файл data/sales_2026-01-12_19:17:28.csv в архив
+2026-01-12 19:17:29 - __mp_main__ - INFO: Временный файл data/sales_2026-01-12_19:17:28_filter.csv удален
+2026-01-12 19:17:29 - __mp_main__ - INFO: Обновляем лог файл в S3
+2026-01-12 19:17:29 - modules.async_client_s3 - INFO: File pipeline.log uploaded in bucket data-engineer-s3-practice
+2026-01-12 19:17:30 - __mp_main__ - INFO: Добавился новый файл
+2026-01-12 19:17:30 - __mp_main__ - INFO: Файл data/sales_2026-01-12_19:17:29.csv прочитан
+2026-01-12 19:17:30 - __mp_main__ - INFO: Файл data/sales_2026-01-12_19:17:29.csv отфильтрован
+2026-01-12 19:17:30 - __mp_main__ - INFO: Создан файл data/sales_2026-01-12_19:17:29_filter.csv
+2026-01-12 19:17:30 - __mp_main__ - INFO: Отправляем файл в S3
+2026-01-12 19:17:30 - modules.async_client_s3 - INFO: File sales_2026-01-12_19:17:29_filter.csv uploaded in bucket data-engineer-s3-practice
+2026-01-12 19:17:30 - __mp_main__ - INFO: Перемещаем файл data/sales_2026-01-12_19:17:29.csv в архив
+2026-01-12 19:17:30 - __mp_main__ - INFO: Временный файл data/sales_2026-01-12_19:17:29_filter.csv удален
+2026-01-12 19:17:30 - __mp_main__ - INFO: Обновляем лог файл в S3
+2026-01-12 19:17:30 - modules.async_client_s3 - INFO: File pipeline.log uploaded in bucket data-engineer-s3-practice
+2026-01-12 19:17:32 - __mp_main__ - INFO: Добавился новый файл
+2026-01-12 19:17:32 - __mp_main__ - INFO: Файл data/sales_2026-01-12_19:17:31.csv прочитан
+2026-01-12 19:17:32 - __mp_main__ - INFO: Файл data/sales_2026-01-12_19:17:31.csv отфильтрован
+2026-01-12 19:17:32 - __mp_main__ - INFO: Создан файл data/sales_2026-01-12_19:17:31_filter.csv
+2026-01-12 19:17:32 - __mp_main__ - INFO: Отправляем файл в S3
+2026-01-12 19:17:32 - modules.async_client_s3 - INFO: File sales_2026-01-12_19:17:31_filter.csv uploaded in bucket data-engineer-s3-practice
+2026-01-12 19:17:32 - __mp_main__ - INFO: Перемещаем файл data/sales_2026-01-12_19:17:31.csv в архив
+2026-01-12 19:17:32 - __mp_main__ - INFO: Временный файл data/sales_2026-01-12_19:17:31_filter.csv удален
+2026-01-12 19:17:32 - __mp_main__ - INFO: Обновляем лог файл в S3
+2026-01-12 19:17:32 - modules.async_client_s3 - INFO: File pipeline.log uploaded in bucket data-engineer-s3-practice
+2026-01-12 19:17:33 - __mp_main__ - INFO: Добавился новый файл
+2026-01-12 19:17:33 - __mp_main__ - INFO: Файл data/sales_2026-01-12_19:17:33.csv прочитан
+2026-01-12 19:17:33 - __mp_main__ - INFO: Файл data/sales_2026-01-12_19:17:33.csv отфильтрован
+2026-01-12 19:17:33 - __mp_main__ - INFO: Создан файл data/sales_2026-01-12_19:17:33_filter.csv
+2026-01-12 19:17:33 - __mp_main__ - INFO: Отправляем файл в S3
+2026-01-12 19:17:34 - modules.async_client_s3 - INFO: File sales_2026-01-12_19:17:33_filter.csv uploaded in bucket data-engineer-s3-practice
+2026-01-12 19:17:34 - __mp_main__ - INFO: Перемещаем файл data/sales_2026-01-12_19:17:33.csv в архив
+2026-01-12 19:17:34 - __mp_main__ - INFO: Временный файл data/sales_2026-01-12_19:17:33_filter.csv удален
+2026-01-12 19:17:34 - __mp_main__ - INFO: Обновляем лог файл в S3
+2026-01-12 19:17:34 - modules.async_client_s3 - INFO: File pipeline.log uploaded in bucket data-engineer-s3-practice
+2026-01-12 19:17:37 - __mp_main__ - INFO: Добавился новый файл
+2026-01-12 19:17:37 - __mp_main__ - INFO: Файл data/sales_2026-01-12_19:17:37.csv прочитан
+2026-01-12 19:17:37 - __mp_main__ - INFO: Файл data/sales_2026-01-12_19:17:37.csv отфильтрован
+2026-01-12 19:17:37 - __mp_main__ - INFO: Создан файл data/sales_2026-01-12_19:17:37_filter.csv
+2026-01-12 19:17:37 - __mp_main__ - INFO: Отправляем файл в S3
+2026-01-12 19:17:37 - modules.async_client_s3 - INFO: File sales_2026-01-12_19:17:37_filter.csv uploaded in bucket data-engineer-s3-practice
+2026-01-12 19:17:37 - __mp_main__ - INFO: Перемещаем файл data/sales_2026-01-12_19:17:37.csv в архив
+2026-01-12 19:17:37 - __mp_main__ - INFO: Временный файл data/sales_2026-01-12_19:17:37_filter.csv удален
+2026-01-12 19:17:37 - __mp_main__ - INFO: Обновляем лог файл в S3
+2026-01-12 19:17:38 - modules.async_client_s3 - INFO: File pipeline.log uploaded in bucket data-engineer-s3-practice
+2026-01-12 19:17:39 - __mp_main__ - INFO: Добавился новый файл
+2026-01-12 19:17:39 - __mp_main__ - INFO: Файл data/sales_2026-01-12_19:17:39.csv прочитан
+2026-01-12 19:17:39 - __mp_main__ - INFO: Файл data/sales_2026-01-12_19:17:39.csv отфильтрован
+2026-01-12 19:17:39 - __mp_main__ - INFO: Создан файл data/sales_2026-01-12_19:17:39_filter.csv
+2026-01-12 19:17:39 - __mp_main__ - INFO: Отправляем файл в S3
+2026-01-12 19:17:39 - modules.async_client_s3 - INFO: File sales_2026-01-12_19:17:39_filter.csv uploaded in bucket data-engineer-s3-practice
+2026-01-12 19:17:39 - __mp_main__ - INFO: Перемещаем файл data/sales_2026-01-12_19:17:39.csv в архив
+2026-01-12 19:17:39 - __mp_main__ - INFO: Временный файл data/sales_2026-01-12_19:17:39_filter.csv удален
+2026-01-12 19:17:39 - __mp_main__ - INFO: Обновляем лог файл в S3
+2026-01-12 19:17:39 - modules.async_client_s3 - INFO: File pipeline.log uploaded in bucket data-engineer-s3-practice
+2026-01-12 19:17:41 - __mp_main__ - INFO: Добавился новый файл
+2026-01-12 19:17:41 - __mp_main__ - INFO: Файл data/sales_2026-01-12_19:17:40.csv прочитан
+2026-01-12 19:17:41 - __mp_main__ - INFO: Файл data/sales_2026-01-12_19:17:40.csv отфильтрован
+2026-01-12 19:17:41 - __mp_main__ - INFO: Создан файл data/sales_2026-01-12_19:17:40_filter.csv
+2026-01-12 19:17:41 - __mp_main__ - INFO: Отправляем файл в S3
+2026-01-12 19:17:41 - modules.async_client_s3 - INFO: File sales_2026-01-12_19:17:40_filter.csv uploaded in bucket data-engineer-s3-practice
+2026-01-12 19:17:41 - __mp_main__ - INFO: Перемещаем файл data/sales_2026-01-12_19:17:40.csv в архив
+2026-01-12 19:17:41 - __mp_main__ - INFO: Временный файл data/sales_2026-01-12_19:17:40_filter.csv удален
+2026-01-12 19:17:41 - __mp_main__ - INFO: Обновляем лог файл в S3
+2026-01-12 19:17:41 - modules.async_client_s3 - INFO: File pipeline.log uploaded in bucket data-engineer-s3-practice
+2026-01-12 19:17:43 - __mp_main__ - INFO: Добавился новый файл
+2026-01-12 19:17:43 - __mp_main__ - INFO: Файл data/sales_2026-01-12_19:17:42.csv прочитан
+2026-01-12 19:17:43 - __mp_main__ - INFO: Файл data/sales_2026-01-12_19:17:42.csv отфильтрован
+2026-01-12 19:17:43 - __mp_main__ - INFO: Создан файл data/sales_2026-01-12_19:17:42_filter.csv
+2026-01-12 19:17:43 - __mp_main__ - INFO: Отправляем файл в S3
+2026-01-12 19:17:43 - modules.async_client_s3 - INFO: File sales_2026-01-12_19:17:42_filter.csv uploaded in bucket data-engineer-s3-practice
+2026-01-12 19:17:43 - __mp_main__ - INFO: Перемещаем файл data/sales_2026-01-12_19:17:42.csv в архив
+2026-01-12 19:17:43 - __mp_main__ - INFO: Временный файл data/sales_2026-01-12_19:17:42_filter.csv удален
+2026-01-12 19:17:43 - __mp_main__ - INFO: Обновляем лог файл в S3
+2026-01-12 19:17:43 - modules.async_client_s3 - INFO: File pipeline.log uploaded in bucket data-engineer-s3-practice
